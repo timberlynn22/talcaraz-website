@@ -10,7 +10,7 @@ This website was developed to highlight the vision and services of **Talcaraz De
 
 - **HTML5** — For structure and content  
 - **CSS3** — For styling and layout  
-- *(Optional: Mention JavaScript or other tools if applicable)*
+
 
 ## 📁 Project Structure
 
