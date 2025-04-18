@@ -1,0 +1,74 @@
+[
+	
+	{
+        "prodID": 101,
+        "prodImg": "luxury_living.png",
+        "prodName": "Luxury Living Package",
+        "prodDesc": "High-end furniture, decor, and lighting for a sophisticated living room.",
+        "prodPrice": 4500.00
+    },
+    {
+        "prodID": 102,
+        "prodImg": "modern_minimalist.png",
+        "prodName": "Modern Minimalist Package",
+        "prodDesc": "Sleek furniture and neutral tones for a clean, uncluttered space.",
+        "prodPrice": 3500.00
+    },
+    {
+        "prodID": 103,
+        "prodImg": "boho_chic.png",
+        "prodName": "Boho Chic Package",
+        "prodDesc": "Earthy tones, patterns, and textures for a relaxed, bohemian vibe.",
+        "prodPrice": 3800.00
+    },
+    {
+        "prodID": 104,
+        "prodImg": "industrial_style.png",
+        "prodName": "Industrial Style Package",
+        "prodDesc": "Exposed materials, metal accents, and rustic elements for a bold look.",
+        "prodPrice": 4000.00
+    },
+    {
+        "prodID": 105,
+        "prodImg": "scandinavian.png",
+        "prodName": "Scandinavian Package",
+        "prodDesc": "Light wood furniture and cozy decor for a functional yet inviting space.",
+        "prodPrice": 3200.00
+    },
+    {
+        "prodID": 106,
+        "prodImg": "coastal_retreat.png",
+        "prodName": "Coastal Retreat Package",
+        "prodDesc": "Light, airy designs with soft blues and whites, perfect for a serene atmosphere.",
+        "prodPrice": 3900.00
+    },
+    {
+        "prodID": 107,
+        "prodImg": "farmhouse_charm.png",
+        "prodName": "Farmhouse Charm Package",
+        "prodDesc": "Rustic furniture, shiplap walls, and warm tones for a cozy, homey feel.",
+        "prodPrice": 3600.00
+    },
+    {
+        "prodID": 108,
+        "prodImg": "contemporary_elegance.png",
+        "prodName": "Contemporary Elegance Package",
+        "prodDesc": "Sleek lines, metallic accents, and bold artwork for a chic, modern home.",
+        "prodPrice": 4200.00
+    },
+    {
+        "prodID": 109,
+        "prodImg": "eclectic_fusion.png",
+        "prodName": "Eclectic Fusion Package",
+        "prodDesc": "A mix of styles, patterns, and colors for a unique, personalized design living room",
+        "prodPrice": 3700.00
+    },
+    {
+        "prodID": 110,
+        "prodImg": "vintage_revival.png",
+        "prodName": "Vintage Revival Package",
+        "prodDesc": "Classic furniture and decor with antique-inspired touches for timeless beauty.",
+        "prodPrice": 4100.00
+    }
+	
+]

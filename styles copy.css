@@ -1,0 +1,73 @@
+/*
+    Timber Medina
+    INSY 4315-001
+    Project 2- External CSS
+*/
+/*
+    Timber Medina
+    INSY 4315-001
+    Project 2- External CSS
+*/
+
+body {
+    background-color: aliceblue;
+    font-family: Georgia, sans-serif;
+}
+
+img.logo {
+    width: 3%; 
+    border-radius: 15px;
+
+}
+
+h1,h2,h4 {
+    text-align: center;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden; 
+}
+
+p {
+    font-size: 1.3em;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 3%;
+}
+
+table {
+    text-align: left;
+    width: 70%;
+}
+
+img.sam {
+    width: 25%;
+    float: right;
+    border-radius: 15%;
+}
+#tbodyRows  {border: solid;
+            table-layout: fixed;}
+
+table.menu {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+

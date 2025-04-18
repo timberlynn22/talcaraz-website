@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!-- Timber Medina
+     INSY 4315-001
+     Project 3 -->
+
+<html lang="en">
+<head>
+    <title>Package Order Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles copy.css">
+</head>
+
+<body>
+    <header>
+        <h1><img class="logo"src="Image/logo.png" alt="Talcaraz Designs logo">Talcaraz Designs<img class="logo" src="Image/logo.png" alt="Talcaraz Designs logo"></h1>
+        <nav style="text-align: center;">
+			<table class="menu">
+			<tbody>
+        		<tr>
+            		<td><a href="index.html">Home</a></b></td>
+            		<td><a href="contact_tlm9118.html">Contact Us</a></b></td>
+           			<td><a href="about_tlm9118.html">About Us</a></b></td>
+        			</tr>
+        	</tbody>
+    		</table>
+    	</nav>
+        <h2>Our Packages</h2>
+    </header>
+    <form id="prodForm">
+        <div class="content">
+            <label for="sortOptions">Sort by: </label>
+            <a href="javascript:sortID()">Product ID</a> 
+            <a href="javascript:sortName()">Product Name</a> 
+            <a href="javascript:sortPrice()">Price</a>
+        </div>
+        <table class="content">
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyRows">
+            </tbody>
+        </table>
+        <div class="content">
+            <input type="button" value="Submit" onClick="confirmQty()">
+            <input type="button" value="Reset" onClick="confirmCancel()">
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
+

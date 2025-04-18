@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<!-- Timber Medina
+	 INSY 4315-001
+	 Assignment #1 -->
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8"/>
+
+		<title> Talcaraz Designs </title>
+
+		<style>
+			c
+
+			p {font-size:1.2em; text-align:center;  }
+
+			img {width: 20%; height: auto; border-radius:15px; border: 2px solid #ccc; vertical-align: middle;}
+
+			h1 , h2, h3 ,h4{text-align: center;}
+			
+
+			label {font-size: .9em; }
+
+			body {padding-right: 5%; padding-left: 5%;
+				 background-color: darkseagreen; font-family: Georgia, sans-serif;}
+
+
+			table{width:50%; margin-right: auto; margin-left: auto; font-size: 1.1em;}
+
+			tr { width:100% ;padding: 5px;}
+
+
+			.left-align { text-align: right; }
+			.right-align { text-align: left; }
+
+			.center {text-align: center; width: 100%}
+			div {width:70%; font-size: 1.4em; padding: 1%;}
+
+
+			ul.no-marker {width: 70%; margin-right:40%; margin-left:40%;list-style-type:none; text-align: center;}
+
+			ul.open-circle-marker {width: 70%; margin-right: auto; margin-left: auto; list-style-type: circle; }
+
+			.right {text-align: center; padding-right: 1%; max-width: 30%;}
+
+			li img { vertical-align: middle;
+					  margin-right: 10px;}
+			img.logo {
+    				width: 3%; 
+    				border-radius: 15px;
+
+				}
+
+		</style>
+
+	</head>
+
+	<body>
+		<h1><img class="logo"src="Image/logo.png" alt="Talcaraz Designs logo">Thank You For Choosing Talcaraz Designs!<img class="logo"src="Image/logo.png" alt="Talcaraz Designs logo"> </h1>
+
+		<div style="float:left;">
+			<p> You have been seleted to give us your opinion on your favorite kitchen style. Please tell us a little about yourself then respond to the survey opinion statements based on your taste in kitchen decor. To show our appreciation for your participation, we will send you a $5 visa giftcard in the mail.</p>
+		</div>
+
+		<img src="image/1st-pic.png" style= " width:27%; border-radius:15px; border:2px solid #ccc; "/>
+
+	<hr>
+		<form>
+			<table>
+			<thead>
+			<tr>
+			<th colspan="4"> Introduce Yourself! </th>
+			</tr>
+			</thead>
+
+			<tbody>
+
+				<tr>
+					<td class="left-align"><label>First Name:</label></td>
+					<td class="right-align"><input name="fname"	type="text" size="25" maxlength="15" required autofocus></td>
+					<td class="left-align"><label>Last Name:</label></td>
+				
+					<td class="right-align"><input name="lname" type="text" size="25" maxlength="20" required></td>
+				</tr>
+				<tr>
+					<td class="left-align"><label>Email Address:</label></td>
+					<td class="right-align"><input name="email" type="email" size="25" maxlength="40" required></td>
+		 			<td class="left-align"><label>Phone Number:</label></td>
+					<td class="right-align"><input name = "phone" type = "tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####"></td>
+				</tr>
+				<tr>
+					<td class="left-align"><label>Age Group:</label></td>
+					<td class="right-align" colspan="3">
+						<input type="radio" name="age" value="under 21"> Under 21 
+						<input type="radio" name="age" value="21-40"> 21-40 
+						<input type="radio" name="age" value="over 40"> Over 40
+					</td>
+				</tr>
+
+	   		</tbody>
+	   	</table>
+	   
+
+	  
+	 
+	   	<hr>
+
+	   		<h3> Please Rate Your Preference for the Following Kitchen Decor Themes: </h3>
+	   		
+	   	
+	   		<ul class="no-marker">
+				<li class="right-align">1= Strongly Dislike </li>
+	   			<li class="right-align">2= Dislike </li>
+	   			<li class="right-align">3= Neutral </li>
+	   			<li class="right-align">4= Like </li>
+	   			<li class="right-align">5= Strongly Like </li>		
+	 		</ul>
+	 		
+	 		<div style="width: 100%; margin-right: auto; margin-left: auto; float:none;">
+	 		<ul class="open-circle-marker">
+	 			<li> 
+	 			<img src="image/modern-kit.png" alt="modern-kitchen" 
+	 				style="width:20%; border-radius:10%; border:2px solid #ccc; margin-bottom:.5%;"/> 
+	 			Modern Kitchen (Monocromatic Colors, emphasizes simplicity)
+	 			<select name="modern-kitchen" required>
+	 			<option value="" disabled selected>Select</option>
+	 			<option value="1">1</option>
+	 			<option value="2">2</option>
+	 			<option value="3">3</option>
+	 			<option value="4">4</option>
+	 			<option value="5">5</option>
+	 		</select>
+	 			</li>
+	 			<li> <img src="image/Rust-kit.png" alt="Rustic-kitchen" style="width:20%; border:2px solid #ccc; margin-bottom: .5%; border-radius:10%;"/> 
+	 			Rustic Kitchen (Rough and Aged Appearance)
+	 			<select name="Rustic-Kitchen" required>
+	 			<option value="" disabled selected>Select</option>
+	 			<option value="1">1</option>
+	 			<option value="2">2</option>
+	 			<option value="3">3</option>
+	 			<option value="4">4</option>
+	 			<option value="5">5</option>
+	 			</select>
+	 			</li>
+	 			<li>
+	 			<img src="image/Trad-kit.png" alt="Tradional-kitchen" style="width:20%; border:2px solid #ccc;; border-radius: 10%; margin-bottom:.5%;"/>
+	 			Tradional Kitchen (Simple With Bold Accents)
+	 			<select name="Tradional-kitchen.png" required> 
+	 			<option value="" disabled selected>Select</option>
+	 			<option value="1">1</option>
+	 			<option value="2">2</option>
+	 			<option value="3">3</option>
+	 			<option value="4">4</option>
+	 			<option value="5">5</option>
+	 			</select>
+	 			</li>
+	 			<li> 
+	 			<img src="image/farm-kit.png" alt="Farmhouse-kitchen" style="width:20%; padding-bottom: .5%; 
+	 				border:2px solid #ccc; border-radius:10%; "/>
+	 			Farmhouse Kitchen (Rustic charm with modern convience)
+	 			<select name="Farmhouse-kitchen" required> 
+	 			<option value="" disabled selected>Select</option>
+	 			<option value="1">1</option>
+	 			<option value="2">2</option>
+	 			<option value="3">3</option>
+	 			<option value="4">4</option>
+	 			<option value="5">5</option>
+	 		</select></li>
+	 		</ul>
+	 	</div>
+	 		
+
+	 		<p class="buttons" style="text-align: center;">
+	 			<input type="submit" value="submit">
+	 			<input type="Reset" value="Reset">
+	 		</p>
+
+
+	   		
+
+	   		</form>
+
+	   		</body>
+
+	   	</html>
+	
+
